@@ -1,6 +1,7 @@
 // TODO: Include packages needed for this application
 import inquirer from "inquirer";
 import fs from "fs";
+import license  from './utils/generateMarkdown.js'
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -75,7 +76,7 @@ function writeToFile(fileName, data) {
 function init(writeToFile) {
     inquirer.prompt(questions)
     .then((answers) => {
-        const data = `# ${answers.title}\n\n## Description\n${answers.description}\n\n## Table of Contents\n${answers.Toc}\n\n## Instilation Instructions\n${answers.isntilation}\n\n## Usage\n${answers.usage}\n\n## Contribution Guidelines\n${answers.contribution}\n\n## Test instructions\n${answers.tests}\n\n## About\n${answers.github}\n${answers.email}\n\n## License\n${answers.license}\n`;
+        const data = `# ${answers.title}\n\n## Description\n${answers.description}\n\n## Table of Contents\n${answers.Toc}\n\n## Instilation Instructions\n${answers.isntilation}\n\n## Usage\n${answers.usage}\n\n## Contribution Guidelines\n${answers.contribution}\n\n## Test instructions\n${answers.tests}\n\n## About\n${answers.github}\n${answers.email}\n\n## License\n${renderLicenseBadge}\n${renderLicenseLink}\n${renderLicenseSection}\n`;
         const fileName = 'README.md';
         writeToFile(fileName, data);
     })
