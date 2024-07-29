@@ -72,10 +72,10 @@ ${badge}${renderLicenseLink(data.license)}
   ## Contributing
   ${data.contribution}
 
-  ##tests
+  ## tests
   ${data.tests}
 
-  ##Questions
+  ## Questions
   please visit my Github ${data.github}.
   For additional questions, please contact me at ${data.email}.
 

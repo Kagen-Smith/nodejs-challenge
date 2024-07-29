@@ -17,8 +17,8 @@ const questions = [
     },
     {
         type: 'input',
-        message: 'what are the instillation instructions?',
-        name: 'instillation'
+        message: 'what are the installation instructions?',
+        name: 'installation'
     },
     {
         type: 'input',
