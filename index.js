@@ -56,13 +56,13 @@ const questions = [
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
     const markdownItems = generateMarkdown(data);
-    fs.writefile(fileName, markdownItems, (err) => {
+    fs.writeFile(fileName, markdownItems, (err) => {
         if (err) {
             console.error(err);
         } else {
             console.log('Your README has been generated!')
         }
-    })
+    });
 
 };
 
