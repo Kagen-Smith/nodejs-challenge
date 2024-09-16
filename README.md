@@ -1,10 +1,10 @@
 
 [![license: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-  # README generator
+  # FullStackReact
   
   ## Description 
-  This is a program that uses node.js, fs, and Inquirer to generate a README file, using prompts and other node.js methods to fill out the markdown info for a README file. in this reade me you will find the installation instructions, the useage for this project, and the licenses
+  this is a homework project to practice using JWT tokens for authorization. This ensures that only authorized users can access and manage their tasks,  ensuring their information is protected. through this project i now know how to impliment JWT tokens, and I gained more knowledge on exploing an application on Render.
 
   ## Table of contents
   -[Installation](#installation)
@@ -14,21 +14,19 @@
   -[Questions](#questions)
 
   ## Installation
-once you have cloned the repository to your machine you 
-will need to go to your terminal on your computer and get to the file directory you put the repo in. 
-once there you will need to run 'npm i inquirer' in order to download the needed node_modules
+  clone the repository, install the dependencies, run npm run build, run npm run seed, run npm run start:dev
 
   ## Usage
-  to make creating README's more simple and easy. here is a video link to show how this program runs. [instruction-video]()
+  if you have the credentals you should be able to access the Kanban Bard, adding a new ticket, editing it or deleting it.  
 
   ## License
   This project uses the MIT license
 
   ## Contributing
-  none
+  
 
   ## tests
-  none 
+  
 
   ## Questions
   please visit my Github https://github.com/Kagen-Smith.
